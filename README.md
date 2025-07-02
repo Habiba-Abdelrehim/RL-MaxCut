@@ -2,7 +2,13 @@
 
 PyTorch reproduction of the deterministic-REINFORCE paper by Lu & Liu (2023) for Max-Cut on sparse Ising graphs, extended with a Metropolis–Hastings burn-in and greedy local search. Reaches 89–96% of the paper’s Optsicom and GSet benchmarks in under an hour per graph.
 
----
+A short video presentation summarizing the research project:
+
+
+https://github.com/user-attachments/assets/dc3aa06d-9b36-4a2d-975d-8a5a252da9e9
+
+
+
 
 ## Overview
 
