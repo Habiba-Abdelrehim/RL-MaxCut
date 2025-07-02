@@ -10,10 +10,10 @@ This project implements and extends the **deterministic REINFORCE algorithm** pr
 
 Our approach introduces:
 
-✅ A **Metropolis–Hastings burn-in** to escape shallow local minima and accelerate convergence  
-✅ A **greedy local search** after policy actions to immediately improve solution quality  
-✅ Full **PyTorch implementation** with systematic hyperparameter tuning  
-✅ All experiments run in a Jupyter Notebook with GPU support via Google Colab  
+- A Metropolis–Hastings burn-in to escape shallow local minima and accelerate convergence  
+- A greedy local search after policy actions to immediately improve solution quality  
+- Full PyTorch implementation with systematic hyperparameter tuning  
+- All experiments run in a Jupyter Notebook with GPU support via Google Colab   
 
 ---
 
