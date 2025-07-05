@@ -1,6 +1,6 @@
 # RL for Max-Cut: Deterministic Policy Gradient for RL-Based MaxCut on Sparse Ising Graphs
 
-PyTorch reproduction of the deterministic-REINFORCE paper by Lu & Liu (2023) for Max-Cut on sparse Ising graphs, extended with a Metropolis–Hastings burn-in and greedy local search. Reaches 89–96% of the paper’s Optsicom and GSet benchmarks in under an hour per graph.
+PyTorch reproduction of the Deterministic REINFORCE paper by Lu & Liu (2023) for Max-Cut on sparse Ising graphs, extended with a Metropolis–Hastings burn-in and greedy local search. Reaches 89–96% of the paper’s Optsicom and GSet benchmarks in under an hour per graph.
 
 A short video presentation summarizing the research project:
 
@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/dc3aa06d-9b36-4a2d-975d-8a5a252da9e9
 
 ## Overview
 
-This project implements and extends the **deterministic REINFORCE algorithm** proposed by Lu & Liu (2023) for solving the NP-hard **MaxCut** problem on sparse Ising graphs. The MaxCut problem seeks to partition the nodes of a graph to maximize the number of edges between partitions, with applications in physics, network design, and combinatorial optimization.
+This project implements and extends the **Deterministic REINFORCE algorithm** proposed by Lu & Liu (2023) for solving the NP-hard **MaxCut** problem on sparse Ising graphs. The MaxCut problem seeks to partition the nodes of a graph to maximize the number of edges between partitions, with applications in physics, network design, and combinatorial optimization.
 
 Our approach introduces:
 
